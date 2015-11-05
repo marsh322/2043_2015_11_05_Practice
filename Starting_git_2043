@@ -1,0 +1,111 @@
+Notes for starting git in 2043
+
+Step 1, get an online git account.
+Your user name for! marsh322
+
+Step 2, Use a machine that has git installed.
+
+STep 3, GO to command prompt and lets get started.
+
+cmd 1: Get to your folder.
+
+use *dir* to find out what is in the directory
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\LAB>cd Desktop
+```
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\LAB>cd Desktop
+
+C:\Users\LAB\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is 4626-586E
+
+ Directory of C:\Users\LAB\Desktop
+
+11/05/2015  08:12 AM    <DIR>          .
+11/05/2015  08:12 AM    <DIR>          ..
+11/05/2015  08:13 AM    <DIR>          2043 git practice
+06/21/2012  07:31 AM               991 Mozilla Firefox.lnk
+06/21/2012  02:16 PM             1,553 Report Problems-ITS.lnk
+               2 File(s)          2,544 bytes
+               3 Dir(s)  402,696,155,136 bytes free
+
+C:\Users\LAB\Desktop>cd "2043 git practice"
+
+C:\Users\LAB\Desktop\2043 git practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is 4626-586E
+
+ Directory of C:\Users\LAB\Desktop\2043 git practice
+
+11/05/2015  08:13 AM    <DIR>          .
+11/05/2015  08:13 AM    <DIR>          ..
+11/05/2015  08:42 AM             1,030 Starting_git_2043
+               1 File(s)          1,030 bytes
+               2 Dir(s)  402,696,155,136 bytes free
+
+C:\Users\LAB\Desktop\2043 git practice>echo # 2043_2015_11_05_Practice >> README
+.md
+
+C:\Users\LAB\Desktop\2043 git practice>git init
+Initialized empty Git repository in C:/Users/LAB/Desktop/2043 git practice/.git/
+
+
+C:\Users\LAB\Desktop\2043 git practice>git add README.md
+
+C:\Users\LAB\Desktop\2043 git practice>git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'LAB@STF126K-60099PC.(none)')
+
+C:\Users\LAB\Desktop\2043 git practice>
+Big Idea 2: Set up your git folder.
+1. GO to github.command
+2.Sign in.
+3. Create a new repository
+4. Name the new repository
+5. Provide a meaningful description in the repository.
+This should answer 5 questions.
+who?
+what?
+when?
+where?
+why?
+Step 6: Do not select the button to initialize the folder with a readme
+file.
+
+Step 7:Follow the instructions on github.com for:
+
+…or create a new repository on the command line
+
+echo # 2043_2015_11_05_Practice >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/marsh322/2043_2015_11_05_Practice.git
+git push -u origin master
+
+Now I show you those instructions and their results
+inside the command prompt.
+I will copy and paste one line at a time form github.com to my command
+prompt then execute it.
+
+1. Make a readme.md file
+```
+
+
+
+			   
